@@ -8,7 +8,7 @@ The Weather Bot is a lightweight application designed to provide real-time weath
 + **Lightweight:** Requires no installation—accessible directly via Telegram.
 
 ### Intended Users
-**This application is helpful for:**
+**This application may be helpful for:**
 
 + General users looking for quick weather updates.
 + Developers interested in learning how *to integrate APIs* and Telegram bots in Java.
