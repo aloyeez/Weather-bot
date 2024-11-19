@@ -37,9 +37,9 @@ public class bot extends TelegramLongPollingBot {
         if (text.equals("/start")) {
             sm.setText("Hello!");
         } else if (text.equals("/help")) {
-            sm.setText("Введіть назву міста для отримання поточної температури");
+            sm.setText("Enter a city name to get the current temperature");
         } else if (text.equals("/about")) {
-            sm.setText("Ви використовуєте версію 3.4! Вся інформація імпортована з сайту openweathermap.org");
+            sm.setText("You are using version 3.4! All information imported from the openweathermap.org");
 
         } else {
             try {
@@ -68,3 +68,4 @@ public class bot extends TelegramLongPollingBot {
         return "1439984118:AAHWoBlmjknYdrkMOMoxZDZLKvUmY1-a6j8";
     }
 }
+    
